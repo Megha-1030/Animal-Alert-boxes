@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img{
+                width:400px;
+                height: 300px;
+                border-radius: 25px;
+            }
+        </style>
+        <title>Animal alert boxes</title>
+    </head>
+    <body>
+        <img onclick="Tiger()" src="https://files.worldwildlife.org/wwfcmsprod/images/Tiger_resting_Bandhavgarh_National_Park_India/hero_small/6aofsvaglm_Medium_WW226365.jpg" alt="">
+        <img onclick="Jaguar()" src="https://s01.sgp1.digitaloceanspaces.com/large/850658-68431-jkxkhcamfz-1505392795.jpg" alt="">
+        <img onclick="Lion()" src="https://cdn.forumcomm.com/dims4/default/f86f2ac/2147483647/strip/false/crop/2048x1426+0+0/resize/1486x1035!/quality/90/?url=https%3A%2F%2Fforum-communications-production-web.s3.amazonaws.com%2Fbrightspot%2Fcb%2F83%2Fd6574c614994812c836ddea0dbe8%2Fski-1539.jpg" alt="">
+    <script>
+        function Tiger(){
+            window.alert("Scientific name: Panthera tigris ,Lifespan: 8 – 10 years (In the wild) ,Conservation status: Endangered (Population decreasing) Encyclopedia of Life ,Speed: 49 – 65 km/h (In Short Bursts) ,Order: Carnivora ,Mass: 90 – 310 kg (Male, Adult), 65 – 170 kg (Female, Adult)");
+        }
+        function Jaguar(){
+            window.alert("Scientific name: Panthera onca ,Trophic level: Carnivorous Encyclopedia of Life, Speed: 80 km/h (Maximum) ,Mass: 56 – 96 kg (Adult) ,Conservation status: Near Threatened (Population decreasing) Encyclopedia of Life ,Lifespan: 12 – 15 years (In the wild) ,Order: Carnivora");
+        }
+        function Lion(){
+            window.alert("Scientific name: Panthera leo , Speed: 80 km/h (Maximum, In Short Bursts), Family: Felidae ,Subfamily: Pantherinae, ,Lifespan: 15 – 16 years (Female, Adult, In the wild), 8 – 10 years (Male, Adult, In the wild) ,Mass: 190 kg (Male, Adult), 130 kg (Female, Adult)");
+        }
+    </script>
+    </body>
+</html>
